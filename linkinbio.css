@@ -1,0 +1,74 @@
+
+body,html {
+margin: 0;
+paddling: 0;
+font-family:'Open Sans', sans-serif;
+}
+body{
+background: url(./images/wallpaper.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+header{
+margin-top: 1em;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+ul{
+    
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 20em;
+}
+ul > li{
+    
+    background-color:rgb a(230, 230, 230, 0.667);
+    backdrop-filter: blur(5px) saturate(150%) contrast(180%);
+    border-radius: 10em;
+    padding: 1em 5em;
+    margin: 1.5em;
+}
+
+ul > li > a{
+
+display: flex;
+flex-direction: row;
+justify-content:left;
+gap: 1.5em;
+
+
+
+}
+
+header > img {
+    margin-top: 10em;
+    width: 18em;
+    height: 18em;
+    border-radius: 100%;
+    border: 1px solid white;
+    box: shadow 3px;em;
+
+}
+
+header > h1{
+    color:cornsilk;
+    display: inline-block;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 1em;
+    background-color:rgb a(230, 230, 230, 0.667);
+    backdrop-filter: blur(33px) saturate(100%) contrast(180%);
+    padding: 0.3em 1em;
+    
+}
+
+main{
+
+ position: relative;
+ opacity: 0;
+ filter blur(80px);
+ transition: opacity 2s ease-in-out, filter 2s ease-in-out;   
+}
